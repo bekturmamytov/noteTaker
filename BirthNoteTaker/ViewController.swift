@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         
         print("git1")
         print("git2")
+        print("git3")
         
         
         let storedName = UserDefaults.standard.object(forKey: "name")
