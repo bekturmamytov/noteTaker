@@ -17,6 +17,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("git1")
+        print("git2")
+        
+        
         let storedName = UserDefaults.standard.object(forKey: "name")
         let storedBirthday = UserDefaults.standard.object(forKey: "birthday")
         
